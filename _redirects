@@ -1,0 +1,1 @@
+/suggestion query=:query  https://www.bing.com/osjson.aspx?query=:query 200
