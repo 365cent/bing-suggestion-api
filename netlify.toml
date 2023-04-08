@@ -1,0 +1,8 @@
+[[headers]]
+  for = "/suggestion/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+[[redirects]]
+  from = "/suggestion/*"
+  to = "https://www.bing.com/osjson.aspx?query=:splat"
+  status = 200
